@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry xml:base="https://services.odata.org/V2/northwind/Northwind.svc/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <id>https://services.odata.org/V2/northwind/Northwind.svc/Orders(10249)</id>
+    <category term="NorthwindModel.Order" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="Order" href="Orders(10249)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Customer" type="application/atom+xml;type=entry" title="Customer" href="Orders(10249)/Customer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Employee" type="application/atom+xml;type=entry" title="Employee" href="Orders(10249)/Employee" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Order_Details" type="application/atom+xml;type=feed" title="Order_Details" href="Orders(10249)/Order_Details" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Shipper" type="application/atom+xml;type=entry" title="Shipper" href="Orders(10249)/Shipper" />
+    <title />
+    <updated>2025-11-17T20:58:59Z</updated>
+    <author>
+        <name />
+    </author>
+    <content type="application/xml">
+        <m:properties>
+            <d:OrderID m:type="Edm.Int32">10249</d:OrderID>
+            <d:CustomerID>TOMSP</d:CustomerID>
+            <d:EmployeeID m:type="Edm.Int32">6</d:EmployeeID>
+            <d:OrderDate m:type="Edm.DateTime">1996-07-05T00:00:00</d:OrderDate>
+            <d:RequiredDate m:type="Edm.DateTime">1996-08-16T00:00:00</d:RequiredDate>
+            <d:ShippedDate m:type="Edm.DateTime">1996-07-10T00:00:00</d:ShippedDate>
+            <d:ShipVia m:type="Edm.Int32">1</d:ShipVia>
+            <d:Freight m:type="Edm.Decimal">11.6100</d:Freight>
+            <d:ShipName>Toms Spezialitäten</d:ShipName>
+            <d:ShipAddress>Luisenstr. 48</d:ShipAddress>
+            <d:ShipCity>Münster</d:ShipCity>
+            <d:ShipRegion m:null="true" />
+            <d:ShipPostalCode>44087</d:ShipPostalCode>
+            <d:ShipCountry>Germany</d:ShipCountry>
+        </m:properties>
+    </content>
+</entry>

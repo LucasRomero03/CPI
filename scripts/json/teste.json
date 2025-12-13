@@ -1,0 +1,62 @@
+{
+  "pedidoId": "P-2025-001",
+  "cliente": {
+    "id": 789,
+    "nome": "Lucas Romero",
+    "contato": {
+      "email": "lucas@example.com",
+      "telefone": "+55 81 99999-0000"
+    }
+  },
+  "enderecoEntrega": {
+    "rua": "Rua das Acácias",
+    "numero": 120,
+    "cidade": "Recife",
+    "estado": "PE",
+    "cep": "50000-000"
+  },
+  "pagamento": {
+    "metodo": "CARTAO",
+    "parcelas": 3,
+    "cartao": {
+      "bandeira": "VISA",
+      "ultimosDigitos": "1234"
+    }
+  },
+  "itens": [
+    {
+      "itemId": 1,
+      "descricao": "Notebook Gamer",
+      "qtd": 1,
+      "preco": 4500.00,
+      "acessorios": [
+        { "nome": "Capa protetora", "preco": 80.00 },
+        { "nome": "Mouse Gamer", "preco": 120.00 }
+      ]
+    },
+    {
+      "itemId": 2,
+      "descricao": "Monitor 144Hz",
+      "qtd": 2,
+      "preco": 1200.00,
+      "acessorios": []
+    },
+    {
+      "itemId": 3,
+      "descricao": "Teclado Mecânico RGB",
+      "qtd": 1,
+      "preco": 350.00,
+      "acessorios": [
+        {
+          "nome": "Keycaps extras",
+          "cores": ["vermelho", "azul", "preto"]
+        }
+      ]
+    }
+  ],
+  "status": "EM_PROCESSAMENTO",
+  "observacoes": [
+    "Cliente pediu embalagem de presente",
+    "Entregar no período da manhã"
+  ]
+}
